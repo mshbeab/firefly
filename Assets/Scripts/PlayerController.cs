@@ -9,10 +9,11 @@ public class PlayerController : MonoBehaviour {
 
 	private Rigidbody2D player;
 
-
+	private ArrayList moveSteps ;
 
 	// Use this for initialization
 	void Start () {
+		moveSteps = new ArrayList (); 
 		player = GetComponent<Rigidbody2D> ();
 
 	}
@@ -32,8 +33,13 @@ public class PlayerController : MonoBehaviour {
 				star.transform.localScale = new Vector3 (2f, 2f, 2f);
 			}
 			if(Input.GetMouseButtonDown(0)){
-				playerMoving = true ; 
-				StartCoroutine("MovePlayer",star);
+				if(IsAllowedToMove(moveSteps,star)){
+					playerMoving = true ; 
+					moveSteps.Add(star) ;
+					StartCoroutine("MovePlayer",star);
+				}else{
+					Debug.Log("Cannot Move !");
+				}
 			}
 
 
@@ -52,6 +58,19 @@ public class PlayerController : MonoBehaviour {
 			timeLerped += Time.deltaTime * Speed ;
 			transform.position = Vector2.Lerp(player.transform.position, star.transform.position, timeLerped );
 			yield return new WaitForEndOfFrame ();
+		}
+	}
+
+	bool IsAllowedToMove(ArrayList moveSteps,GameObject star){
+
+		if (moveSteps.Count == 0) {
+			return true;
+		}else {
+			GameObject currentStar = (GameObject)moveSteps [moveSteps.Count - 1];
+			if (currentStar.transform.localScale.magnitude > star.transform.localScale.magnitude) {
+				return true;
+			}
+			return false;
 		}
 	}
 }
