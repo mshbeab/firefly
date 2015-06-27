@@ -46,8 +46,13 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Anja\Scripts\CloudMovement.cs" />
+     <Compile Include="Assets\Anja\Scripts\GameLoader.cs" />
+     <Compile Include="Assets\Anja\Scripts\GameMaster.cs" />
+     <Compile Include="Assets\Anja\Scripts\HoverAnimation.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
      <Compile Include="Assets\Scripts\StarController.cs" />
+     <Compile Include="Assets\Scripts\SunController.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

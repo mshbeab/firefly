@@ -1,0 +1,171 @@
+fileFormatVersion: 2
+guid: 842a4f404e7536841afadd68b5a5cbd6
+timeCreated: 1435412968
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: starSpritesheet_0
+    21300002: starSpritesheet_1
+    21300004: starSpritesheet_2
+    21300006: starSpritesheet_3
+    21300008: starSpritesheet_4
+    21300010: starSpritesheet_5
+    21300012: starSpritesheet_6
+    21300014: starSpritesheet_7
+    21300016: starSpritesheet_8
+    21300018: starSpritesheet_9
+    21300020: starSpritesheet_10
+    21300022: starSpritesheet_11
+    21300024: starSpritesheet_12
+    21300026: starSpritesheet_13
+    21300028: starSpritesheet_14
+    21300030: starSpritesheet_15
+    21300032: starSpritesheet_16
+    21300034: starSpritesheet_17
+    21300036: starSpritesheet_18
+    21300038: starSpritesheet_19
+    21300040: starSpritesheet_20
+    21300042: starSpritesheet_21
+    21300044: starSpritesheet_22
+    21300046: starSpritesheet_23
+    21300048: starSpritesheet_24
+    21300050: starSpritesheet_25
+    21300052: starSpritesheet_26
+    21300054: starSpritesheet_27
+    21300056: starSpritesheet_28
+    21300058: starSpritesheet_29
+    21300060: starSpritesheet_30
+    21300062: starSpritesheet_31
+    21300064: starSpritesheet_32
+    21300066: starSpritesheet_33
+    21300068: starSpritesheet_34
+    21300070: starSpritesheet_35
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: starSpritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 154
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: starSpritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 154
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 2, y: 0, z: 0, w: 0}
+    - name: starSpritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 154
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: starSpritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 154
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 8, w: 0}
+    - name: starSpritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 154
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: starSpritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 154
+        width: 19
+        height: 26
+      alignment: 4
+      pivot: {x: 0, y: .5}
+      border: {x: 1, y: 0, z: 5, w: 0}
+    - name: starSpritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 154
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 10, w: 0}
+    - name: starSpritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 154
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

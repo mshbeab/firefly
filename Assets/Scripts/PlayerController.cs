@@ -57,7 +57,7 @@ public class PlayerController : MonoBehaviour {
 		while(timeLerped < 1.0) {
 			timeLerped += Time.deltaTime * Speed ;
 			transform.position = Vector2.Lerp(player.transform.position, star.transform.position, timeLerped );
-			yield return new WaitForEndOfFrame ();
+			yield return null;
 		}
 	}
 
@@ -67,7 +67,7 @@ public class PlayerController : MonoBehaviour {
 			return true;
 		}else {
 			GameObject currentStar = (GameObject)moveSteps [moveSteps.Count - 1];
-			if (currentStar.transform.localScale.magnitude > star.transform.localScale.magnitude) {
+			if (currentStar.transform.localScale.x < star.transform.localScale.x) {
 				return true;
 			}
 			return false;
